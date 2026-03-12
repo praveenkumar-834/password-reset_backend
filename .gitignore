@@ -16,4 +16,3 @@
 *.app
 .snapshots/*
 /node_modules
-.env
