@@ -19,7 +19,7 @@ user.resetTokenExpire = Date.now() + 10*60*1000
 
 await user.save()
 
-const link = `http://localhost:5173/reset-password/${token}`
+const link = `https://password-reset-frontend-chi.vercel.app/reset-password/${token}`
 
 await sendEmail(email,link)
 
